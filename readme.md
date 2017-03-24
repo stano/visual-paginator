@@ -70,7 +70,7 @@ class SomePresenter extends Nette\Application\UI\Presenter
 	protected function createComponentVisualPaginator()
 	{
 		// Init visual paginator
-		$control = new VisualPaginator\Component;
+		$control = new VisualPaginator\Control;
 
 		return $control;
 	}
@@ -94,7 +94,7 @@ class SomePresenter extends Nette\Application\UI\Presenter
 	protected function createComponentVisualPaginator()
 	{
 		// Init visual paginator
-		$control = new VisualPaginator\Component;
+		$control = new VisualPaginator\Control;
 
 		// Enable ajax (by default)
 		$control->enableAjax();
@@ -147,7 +147,7 @@ class SomePresenter extends Nette\Application\UI\Presenter
 	protected function createComponentVisualPaginator()
 	{
 		// Init visual paginator
-		$control = new VisualPaginator\Component;
+		$control = new VisualPaginator\Control;
 
 		// To use bootstrap default template
 		$control->setTemplateFile('bootstrap.latte');
